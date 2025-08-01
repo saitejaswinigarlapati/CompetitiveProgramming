@@ -9,12 +9,14 @@ def find(s):
             return i
     return None
 
-s="nxtware"
-print(f"First non repeating char in {s} : {find(s)}")
 
 def finds(s):
     for i in s:
         if s.count(i)==1:
             return i
     return None
+
+
+s="nxtware"
+print(f"First non repeating char in {s} : {find(s)}")
 print(f"First non repeating char in {s} : {finds(s)}")
